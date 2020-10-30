@@ -15,7 +15,7 @@ For now, I think it's the best solution out there 😁.
 - All you have to do is set your variables within my code and everything will be automatically integrated
 - A clear instructional video will be available on my YouTube channel [Software Basics](https://youtube.com/SoftwareBasics)
 
-### Terms and Conditions 📜 ###
+### License 📜 ###
 - My code is free to use for your personal / commercial projects
 - Selling my code or claiming it as your own is strictly prohibited ⚠
 - Do not remove my credits and give credit where credit is due
