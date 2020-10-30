@@ -5,7 +5,7 @@ Astra offers a wide range of WordPress themes.
 All the free Astra themes do not currently give you the option to have a sticky navigation bar.
 
 Initially, I wrote the code for this project to help me tackle this problem on the WordPress websites I build and/or built using an Astra theme.  
-After doing some quick Googling, I noticed that there are not many of solutions like mine. That's why I decided to release my code as a project.  
+After doing some quick Googling, I noticed that there are not many solutions like mine. That's why I decided to release my code as a project.  
 For now, I think it's the best solution out there 😁.
 
 **I'm just adding the finishing touches to the project. The first release will be available soon.**
@@ -32,6 +32,8 @@ First contact me via email only --> [📧](mailto:info@kingsley.tech?subject=Sup
 I'm hoping to build this out into a WordPress plugin.  
 I wanted to start out this way but I'm just too busy for what it's currently worth.  
 Make it worth while by donating 😉.  
+
+### Project's Blog ✍🏿 ###
 [Click here to visit the discussion blog for this project.](https://kingsleychimezie.weebly.com/blog/astra-theme-animated-sticky-nav-bar)
 
 [![Donate](https://resources.kingsley.tech/images/donate_paypal_kingsley_chimezie_markdown.png)](https://www.paypal.com/paypalme/kingsleychimezie/10eur)
