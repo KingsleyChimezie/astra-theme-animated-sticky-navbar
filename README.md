@@ -1,29 +1,55 @@
-# README #
+# KMP README TEMPLATE
+Description - enter a short description
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Prerequisites
+* prereq 1
+* prereq 2
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Instructions
 
-### How do I get set up? ###
+### Video Guide
+[![<Enter Alt Text - KMP>](http://img.youtube.com/vi/xgejrQbZO7o/0.jpg)](https://youtu.be/xgejrQbZO7o "KMP Website initialiser setup guide")
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Written Guide
+1. Step 1   
+***"instructions"***  
+```Multi link code```
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+2. Step 2  
 
-### Who do I talk to? ###
+- 2.2
 
-* Repo owner or admin
-* Other community or team contact
+- 2.3  
+
+
+---
+## License
+* MIT - Copyright (c) 2019 Kingsley Chimezie - Kingsley Media Productions
+
+## Project People
+| Name                	|  Title              	|  Authority Level      | Website                  	|
+|-------------------	| -------------------	| -------------------	|--------------------------	|
+| Kingsley Chimezie 	|  Author +        	    |  Admin +        	    | http://www.kingsley.tech 	|
+
+[Click here for **title** and **authority level** definitions.](https://bitbucket.org/kingsleymedia-team/kmp-repo-template/src/master/copy-this-and-use-as-repo/assets/title.md)
+
+## Acknowledgments
+*
+## Versions
+- [Click here](https://url-where-versions-are-kept)
+
+
+
+## References
+* Title  
+http://enter-link.com  
+[ACCESSED: dd.mm.yyyy]
+
+* Title  
+http://enter-link.com  
+[ACCESSED: dd.mm.yyyy]
+* Title  
+http://enter-link.com  
+[ACCESSED: dd.mm.yyyy]
