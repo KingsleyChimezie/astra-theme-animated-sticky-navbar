@@ -75,4 +75,4 @@ Make it worth while by donating 😉.
 
 [![Donate](https://resources.kingsley.tech/images/donate_paypal_kingsley_chimezie_markdown.png)](https://www.paypal.com/paypalme/kingsleychimezie/10eur)
 ---
-© 2020 Kingsley Chimezie | [Kingsley Chimezie Creations](https://kingley.tech) | [Kingsley Media Productions](https://kingsleymedia.ie)
+© 2020 Kingsley Chimezie | [Kingsley Chimezie Creations](https://kingsley.tech) | [Kingsley Media Productions](https://kingsleymedia.ie)
