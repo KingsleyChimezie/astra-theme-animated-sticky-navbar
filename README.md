@@ -20,7 +20,7 @@ For now, I think it's the best solution out there 😁.
 
 
 ### Video Guide 🎥 ###
-[![<Enter Alt Text - KMP>](http://img.youtube.com/vi/xgejrQbZO7o/0.jpg)](https://youtu.be/xgejrQbZO7o "KMP Website initialiser setup guide")
+[![<Enter Alt Text - KMP>](http://img.youtube.com/vi/uIZz3ZpU7gU/0.jpg)](https://youtu.be/uIZz3ZpU7gU "KMP Website initialiser setup guide")
 
 ### Written Guide 📃 ###
 1. Complete the Prerequisites above - install and activate the 'Simple Custom CSS and JS' plugin

@@ -1,43 +1,47 @@
 /*
-DATE:   
-          Created 2020.10.27 - Republic of Ireland
-AUTHOR:  
-          Kingsley Chimezie
-          Software Engineer | Web Developer | Content Creator
-URLs:    
-          https://kingsley.tech           (Social)
-          https://kingsleymedia.ie        (Business)
+  DATE:   
+            Created 2020.10.27 - Republic of Ireland
+  AUTHOR:  
+            Kingsley Chimezie
+            Software Engineer | Web Developer | Content Creator
+  URLs:    
+            https://kingsley.tech           (Social)
+            https://kingsleymedia.ie        (Business)
 
-- My code is free to use for your personal / commercial projects
-- Selling my code or claiming it as your own is strictly prohibited ⚠
-- Do not remove my credits and give credit where credit is due
+  - My code is free to use for your personal / commercial projects
+  - Selling my code or claiming it as your own is strictly prohibited ⚠
+  - Do not remove my credits and give credit where credit is due
 
-Copyright © 2020 Kingsley Chimezie | Kingsley Chimezie Creations | Kingsley Media Productions
+  Copyright © 2020 Kingsley Chimezie | Kingsley Chimezie Creations | Kingsley Media Productions
 */ 
 
 
-// CUSTOM VARIABLES
-var navbarPaddingOnScroll = "0px";                // Enter the padding size you want your navbar to be on scroll
-var navbarColorOnScroll = "";                     // Set the colour you want your navbar to be on scroll (accepted colour format: hex/rgb/rgba)
-var animationSpeed = "0.3s";                      // How fast or slow do you want the navbar animation to be?
-var scrollDistance = 10;                          // How far do you want to scroll before activating sticky navbar? DO NOT enter 'px', just number
+/* VARIABLE INITIALISATION                                DESCRIPTION                                                                  ACCEPTED VALUE EXAMPLES
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+// Accepted colour formats: name / hex / rgb / rgba
 
-// OPTIONAL CUSTOM VARIABLES
-var navbarPaddingDefault = "";                    // How much top-bottom left-right padding (in px) do you want the navbar?
-var siteContentTopPaddingDesktop = "";            // How much top padding (in px) do you want the site content area to have for Desktop? (> 921px width)
-var siteContentTopPaddingTablet = "";             // How much top padding (in px) do you want the site content area to have for Tablet? (<= 921px width) 
-var siteContentTopPaddingMobile = "";             // How much top padding (in px) do you want the site content area to have for Mobile? (<= 768px width)
+// Custom Variables
+var navbarPaddingDefault = "";                            // Set the navbar padding default - top-bottom left-right                    "25px 0px"
+var navbarPaddingOnScroll = "";                           // Set the navbar padding on scroll - top-bottom left-right                  "15px 0px"
+var navbarColorOnScroll = "";                             // Set the navbar colour on scroll                                           "rgba(47, 79, 79, 0.5)"
+var boxShadow = "0px 4px 8px 0px rgba(0, 0, 0, 0.4)";     // Set the navbar box shadow on scroll                                       "0px 4px 8px 0px rgba(0, 0, 0, 0.4)"
+var animationSpeed = "0.5s";                              // Set how fast or slow you want the navbar transition animation to be       0.5s
+var scrollDistance = 1;                                   // Set how far you want to scroll before activating sticky navbar            1
+
+// Custom Variables (Optional)
+var siteContentTopPaddingDesktop = "";                    // Set the site content area top padding for Desktop - > 921px width         "0px"
+var siteContentTopPaddingTablet = "";                     // Set the site content area top padding for Tablet - <= 921px width         "0px"
+var siteContentTopPaddingMobile = "";                     // Set the site content area top padding for Mobile - <= 768px width         "0px"
 
 // DEFAULT VARIABLES (EDIT ONLY WHEN NECESSARY)
-var boxShadow = "0 4px 8px 0 rgba(0,0,0,0.3)";    // This adds a box shadow to the navbar, comment out (//) to disable
-var astraMinScreenWidthTablet = 921;              // Minimum screen width for tablet
-var astraMinScreenWidthMobile = 768;              // Minimum screen width for mobile
-var siteContentId = "content";                    // The ID of site content div (do not enter the class name)
-var navbarClass = "main-header-bar";              // This is usually the default class for Astra navbar
+var astraMinScreenWidthTablet = 921;                      // Astra minimum screen width for tablet                                     921
+var astraMinScreenWidthMobile = 768;                      // Astra minimum screen width for mobile                                     768
+var siteContentId = "content";                            // Site content area ID                                                      "content"                                               
+var navbarClass = "main-header-bar";                      // Navbar area class name                                                    "main-header-bar"
 
 
 /* ⚠ ONLY EDIT BEYOND THIS POINT IF YOU KNOW JAVASCRIPT :) ⚠
-******************************************************************************************************************/
+*****************************************************************************************************************************************************************************/
 var i;
 var siteContentDiv = document.getElementById(siteContentId);
 var navBarDiv = document.getElementsByClassName(navbarClass);
