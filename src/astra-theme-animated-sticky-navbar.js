@@ -21,34 +21,39 @@
 // Accepted colour formats: name / hex / rgb / rgba
 
 // Custom Variables
-var navbarPaddingDefault = "";                            // Set the navbar padding default - top-bottom left-right                    "25px 0px"
-var navbarPaddingOnScroll = "";                           // Set the navbar padding on scroll - top-bottom left-right                  "15px 0px"
-var navbarColorOnScroll = "";                             // Set the navbar colour on scroll                                           "rgba(47, 79, 79, 0.5)"
-var boxShadow = "0px 4px 8px 0px rgba(0, 0, 0, 0.4)";     // Set the navbar box shadow on scroll                                       "0px 4px 8px 0px rgba(0, 0, 0, 0.4)"
-var animationSpeed = "0.5s";                              // Set how fast or slow you want the navbar transition animation to be       0.5s
-var scrollDistance = 1;                                   // Set how far you want to scroll before activating sticky navbar            1
+var navbarPaddingDefault = "";                                    // Set the navbar padding default - top-bottom left-right                    "25px 0px"
+var navbarPaddingOnScroll = "";                                   // Set the navbar padding on scroll - top-bottom left-right                  "15px 0px"
+var navbarColorOnScroll = "";                                     // Set the navbar colour on scroll                                           "rgba(47, 79, 79, 0.5)"
+var boxShadow = "0px 4px 8px 0px rgba(0, 0, 0, 0.4)";             // Set the navbar box shadow on scroll                                       "0px 4px 8px 0px rgba(0, 0, 0, 0.4)"
+var animationSpeed = "0.5s";                                      // Set how fast or slow you want the navbar transition animation to be       0.5s
+var scrollDistance = 1;                                           // Set how far you want to scroll before activating sticky navbar            1
 
 // Custom Variables (Optional)
-var siteContentTopPaddingDesktop = "";                    // Set the site content area top padding for Desktop - > 921px width         "0px"
-var siteContentTopPaddingTablet = "";                     // Set the site content area top padding for Tablet - <= 921px width         "0px"
-var siteContentTopPaddingMobile = "";                     // Set the site content area top padding for Mobile - <= 768px width         "0px"
+var siteContentTopPaddingDesktop = "";                            // Set the site content area top padding for Desktop - > 921px width         "0px"
+var siteContentTopPaddingTablet = "";                             // Set the site content area top padding for Tablet - <= 921px width         "0px"
+var siteContentTopPaddingMobile = "";                             // Set the site content area top padding for Mobile - <= 768px width         "0px"
 
 // DEFAULT VARIABLES (EDIT ONLY WHEN NECESSARY)
-var astraMinScreenWidthTablet = 921;                      // Astra minimum screen width for tablet                                     921
-var astraMinScreenWidthMobile = 768;                      // Astra minimum screen width for mobile                                     768
-var siteContentId = "content";                            // Site content area ID                                                      "content"                                               
-var navbarClass = "main-header-bar";                      // Navbar area class name                                                    "main-header-bar"
+var astraMinScreenWidthTablet = 921;                              // Astra minimum screen width for tablet                                     921
+var astraMinScreenWidthMobile = 768;                              // Astra minimum screen width for mobile                                     768
+var siteContentId = "content";                                    // Site content area ID                                                      "content"                                               
+var navbarClass = "main-header-bar";                              // Navbar area class name                                                    "main-header-bar"
+var mobileHeaderContentClass = "ast-mobile-header-content";       // Navbar area class name (mobile)                                           "ast-mobile-header-content"
 
 
 /* ⚠ ONLY EDIT BEYOND THIS POINT IF YOU KNOW JAVASCRIPT :) ⚠
 *****************************************************************************************************************************************************************************/
 var i;
+var j;
 var siteContentDiv = document.getElementById(siteContentId);
 var navBarDiv = document.getElementsByClassName(navbarClass);
+var navBarDivHeight;
+var mobileHeaderContentDiv = document.getElementsByClassName(mobileHeaderContentClass);
 
 // Setting any pre-scroll defaults to navbar
 for (i = 0; i < navBarDiv.length; i++) {
   navBarDiv[i].style.padding = navbarPaddingDefault;
+  navBarDivHeight = navBarDiv[i].offsetHeight + "px";
 }
 // Setting site content padding according to screen size
 siteContentDiv.style.paddingTop = siteContentTopPaddingDesktop;
@@ -75,17 +80,25 @@ function scrollFunction() {
       navBarDiv[i].style.width = "100%";
       navBarDiv[i].style.transition = animationSpeed;
       navBarDiv[i].style.transitionTimingFunction = "ease";
-      
       navBarDiv[i].style.padding = navbarPaddingOnScroll;
       navBarDiv[i].style.boxShadow = boxShadow;
       navBarDiv[i].style.backgroundColor = navbarColorOnScroll;
-    }
 
+      // if screen or window width is mobile, set sticky-icky navbar for mobile
+      if (screen.width <= astraMinScreenWidthTablet || window.innerWidth <= astraMinScreenWidthTablet) {
+        for (j = 0; i < mobileHeaderContentDiv.length; i++) {
+          mobileHeaderContentDiv[j].style.position = "fixed";
+          mobileHeaderContentDiv[j].style.width = "100%";
+          mobileHeaderContentDiv[j].style.marginTop = navBarDivHeight;
+        }
+      }
+    }
+    
   } 
   
   //  Else when scroll is less than your defined scroll distance, reset sticky-icky navbar. 
   else {
-  
+    
     // Resetting sticky-icky navbar when back to top
     for (i = 0; i < navBarDiv.length; i++) {
       navBarDiv[i].style.position = "";
@@ -96,6 +109,13 @@ function scrollFunction() {
       navBarDiv[i].style.padding = navbarPaddingDefault;
       navBarDiv[i].style.boxShadow = "";
       navBarDiv[i].style.backgroundColor = "";
+    }
+
+    // Resetting sticky-icky navbar for mobile  
+    for (i = 0; i < mobileHeaderContentDiv.length; i++) {
+      mobileHeaderContentDiv[i].style.position = "";
+      mobileHeaderContentDiv[i].style.width = "";
+      mobileHeaderContentDiv[i].style.marginTop = "";
     }
 
   }
