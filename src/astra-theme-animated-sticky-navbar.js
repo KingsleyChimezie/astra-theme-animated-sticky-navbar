@@ -86,6 +86,7 @@ function scrollFunction() {
 
       // if screen or window width is mobile, set sticky-icky navbar for mobile
       if (screen.width <= astraMinScreenWidthTablet || window.innerWidth <= astraMinScreenWidthTablet) {
+        navBarDivHeight = navBarDiv[i].offsetHeight + "px";
         for (j = 0; i < mobileHeaderContentDiv.length; i++) {
           mobileHeaderContentDiv[j].style.position = "fixed";
           mobileHeaderContentDiv[j].style.width = "100%";
