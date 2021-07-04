@@ -2,18 +2,14 @@
 
 ## By Kingsley Chimezie ##
 
-### Intro 🎤 ###
-Astra offers a wide range of WordPress themes.  
-All the free Astra themes do not currently give you the option to have a sticky navigation bar.
 
-Initially, I wrote the code for this project to help me tackle this problem on the WordPress websites I build and/or built using an Astra theme.  
-After doing some quick Googling, I noticed that there are not many solutions like mine. That's why I decided to release my code as a project.  
-For now, I think it's the best solution out there 😁.
+### [Check version compatibility table before using my code! ](#Versions) ###
+
 
 ### The Project 📦 ###
-- My code will allow you to easily integrate a clean and animated 'sticky-icky' feature with your existing Astra nav bar 👌🏿
+- My code will allow you to easily integrate a FREE and animated sticky feature with your existing Astra nav bar / header 👌🏿
 - All you have to do is set your variables within my code and everything will be automatically integrated
-- A clear instructional video will be available on my YouTube channel [Software Basics](https://youtube.com/SoftwareBasics)
+- Clear instructional videos are available on my YouTube channel [Software Basics](https://youtube.com/SoftwareBasics), see video guide below.
 
 ### Prerequisites ✅ ###
 * [Simple Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) - Install this plugin, it will allow you to embed my code on your WordPress site.
@@ -42,20 +38,42 @@ For now, I think it's the best solution out there 😁.
 - Selling my code or claiming it as your own is strictly prohibited ⚠
 - Do not remove my credits and give credit where credit is due  
 
-See LICENSE.md
+Read LICENSE doc above.
+### Versions 🔢 ###
+[List of all my code version](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/downloads/?tab=tags)
 
-### Premium Support 💻 ###
-If you need help with any integration or issues, I can give you dedicated remote support for a small fee.  
-First contact me via email only --> [📧](mailto:info@kingsley.tech?subject=Support%20For%20Astra%20Theme%20Animated%20Sticky%20Nav%20Bar)
 
-### Donations 💶 ###
-Astra might make some future changes that could cause my code to not work well (or at all) with your Astra theme.  
-Donations will allow me to keep my code updated and functional for everyone.
+The table below tells you the version of my code and Default Astra theme version(s) that I've tested for compatibility (Click to download):
+| My Code Version    |  Compatible default Astra Theme Version(s)             	|  Additional Notes / Instructions        |
+|-------------------	| -------------------------------------------	| ----------	|
+| [1.2.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.0.zip) 	| [3.6.2](https://downloads.wordpress.org/theme/astra.3.6.2.zip) |  v1.2.0 might work with other Astra versions that have header builder.            |
+| [1.1.1](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.1.1.zip) 	| [3.2.0](https://downloads.wordpress.org/theme/astra.3.2.0.zip) |              |
+
+### Supporter Pack Version 🙏 ###
+I've decided to limit some features to a premium version - don't worry, you still get all the main features in the standard version.
+
+Here's what you get with the supporter pack:  
+
+✅ Shrink or enlarge branding area on scroll (i.e. logo, title and description) for Desktop & Mobile/Tablets  
+✅ Enable or disable sticky feature for the primary, above or below navbars.  
+✅ Set custom colour for above or below navbars.
+
+**€2 for one-time purchase (code & license)**
+-   You get the support pack version at the time of purchase.  
+
+**€12 for lifetime updates (code & license)**
+-   You get support pack version at the time of purchase and all future updates, it doesn't matter if prices change in future.
+-   Better get it now while it's cheap 😊
+
+Purchase links will be available soon, in the meantime you can contact me if you would like to buy the supporter pack code & license.
 
 ### Future Plans 📓 ###
 I'm hoping to build this out into a WordPress plugin.  
 I wanted to start out this way but I'm just too busy for what it's currently worth.  
 Make it worth while by donating 😉.  
+### Donations 💶 ###
+Astra might make some future changes that could cause my code to not work well (or at all) with your Astra theme.  
+Donations will allow me to keep my code updated and functional for everyone.
 
 ### Project's Blog ✍🏿 ###
 [Click here to visit the discussion blog for this project.](https://kingsleychimezie.weebly.com/blog/astra-theme-animated-sticky-nav-bar)
@@ -63,8 +81,8 @@ Make it worth while by donating 😉.
 ### Acknowledgments 👏 ###
 * SilkyPress.com - Simple Custom CSS and JS plugin
 
-### Versions 🔢 ###
-- [Click here](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/downloads/?tab=tags)
+
+
 
 ### Project People 👥 ###
 | Name                	|  Title              	|  Authority Level      | Website                  	|
@@ -75,4 +93,4 @@ Make it worth while by donating 😉.
 
 [![Donate](https://resources.kingsley.tech/images/donate_paypal_kingsley_chimezie_markdown.png)](https://www.paypal.com/paypalme/kingsleychimezie/10eur)
 ---
-© 2020 Kingsley Chimezie | [Kingsley Chimezie Creations](https://kingsley.tech) | [Kingsley Media Productions](https://kingsleymedia.ie)
+© 2020 Kingsley Chimezie | [Kingsley Chimezie Creations](https://kingsley.tech)
