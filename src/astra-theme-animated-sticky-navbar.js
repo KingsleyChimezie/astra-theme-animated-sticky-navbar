@@ -87,9 +87,10 @@ function scrollFunction() {
     // Setting sticky header  
     for (i = 0; i < headerDiv.length; i++) {
       
+      // @DEPRECATED
       // add header height as padding to top of content div on scroll, this prevents 
-      navBarDivHeight = headerDiv[i].offsetHeight + "px";
-      siteContentDiv.style.paddingTop = navBarDivHeight;
+      // navBarDivHeight = headerDiv[i].offsetHeight + "px";
+      // siteContentDiv.style.paddingTop = navBarDivHeight;
       
       // Set main container header
       headerDiv[i].style.position = "fixed";
