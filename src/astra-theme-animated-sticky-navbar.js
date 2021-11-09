@@ -2,9 +2,9 @@
   TITLE:
             Astra Theme Animated Sticky Nav Bar / Header
   VERSION:  
-            1.2.0
+            1.2.1
   DATE:   
-            Released 2021.07.04 - Republic of Ireland
+            Released 2021.11.09 - Republic of Ireland
   AUTHOR:  
             Kingsley Chimezie
             Software Engineer | Web Developer | Content Creator
