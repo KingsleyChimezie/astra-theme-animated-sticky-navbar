@@ -40,13 +40,14 @@
 
 Read LICENSE doc above.
 ### Versions 🔢 ###
-[List of all my code version](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/downloads/?tab=tags)
 
 
-The table below tells you the version of my code and Default Astra theme version(s) that I've tested for compatibility (Click to download):
-| My Code Version    |  Compatible default Astra Theme Version(s)             	|  Additional Notes / Instructions        |
+The table below tells you the version of my code and the default Astra theme versions that I've tested for compatibility (Click to download):
+
+| My Code Version    |  Tested compatible default Astra Theme Version(s)             	|  Additional Notes / Instructions        |
 |-------------------	| -------------------------------------------	| ----------	|
-| [1.2.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.0.zip) 	| [3.6.2](https://downloads.wordpress.org/theme/astra.3.6.2.zip) |  v1.2.0 might work with other Astra versions that have header builder.            |
+| [1.2.1](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.1.zip) 	| [3.7.5](https://downloads.wordpress.org/theme/astra.3.7.5.zip) |              |
+| [1.2.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.0.zip) 	| [3.7.5](https://downloads.wordpress.org/theme/astra.3.7.5.zip) / [3.7.3](https://downloads.wordpress.org/theme/astra.3.7.3.zip) / [3.7.2](https://downloads.wordpress.org/theme/astra.3.7.2.zip) / [3.6.2](https://downloads.wordpress.org/theme/astra.3.6.2.zip) |  v1.2.0+ might work with other Astra versions that have header builder.            |
 | [1.1.1](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.1.1.zip) 	| [3.2.0](https://downloads.wordpress.org/theme/astra.3.2.0.zip) |              |
 
 ### Supporter Pack Version 🙏 ###
@@ -71,9 +72,6 @@ Purchase links will be available soon, in the meantime you can contact me if you
 I'm hoping to build this out into a WordPress plugin.  
 I wanted to start out this way but I'm just too busy for what it's currently worth.  
 Make it worth while by donating 😉.  
-### Donations 💶 ###
-Astra might make some future changes that could cause my code to not work well (or at all) with your Astra theme.  
-Donations will allow me to keep my code updated and functional for everyone.
 
 ### Project's Blog ✍🏿 ###
 [Click here to visit the discussion blog for this project.](https://kingsleychimezie.weebly.com/blog/astra-theme-animated-sticky-nav-bar)
@@ -90,6 +88,9 @@ Donations will allow me to keep my code updated and functional for everyone.
 | Kingsley Chimezie 	|  Author +        	    |  Admin +        	    | http://www.kingsley.tech 	|
 
 [Click here for **title** and **authority level** definitions.](https://bitbucket.org/kingsleymedia-team/kmp-repo-template/src/master/copy-this-and-use-as-repo/assets/title.md)
+### Donations 💶 ###
+Astra might make some future changes that could cause my code to not work well (or at all) with your Astra theme.  
+Donations will allow me to keep my code updated and functional for everyone.
 
 [![Donate](https://resources.kingsley.tech/images/donate_paypal_kingsley_chimezie_markdown.png)](https://www.paypal.com/paypalme/kingsleychimezie/10eur)
 ---
