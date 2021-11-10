@@ -49,6 +49,8 @@ The table below tells you the version of my code and the default Astra theme ver
 | [1.2.1](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.1.zip) 	| [3.7.5](https://downloads.wordpress.org/theme/astra.3.7.5.zip) |              |
 | [1.2.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.2.0.zip) 	| [3.7.5](https://downloads.wordpress.org/theme/astra.3.7.5.zip) / [3.7.3](https://downloads.wordpress.org/theme/astra.3.7.3.zip) / [3.7.2](https://downloads.wordpress.org/theme/astra.3.7.2.zip) / [3.6.2](https://downloads.wordpress.org/theme/astra.3.6.2.zip) |  v1.2.0+ might work with other Astra versions that have header builder.            |
 | [1.1.1](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.1.1.zip) 	| [3.2.0](https://downloads.wordpress.org/theme/astra.3.2.0.zip) |              |
+| [1.1.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.1.0.zip) 	|  |              |
+| [1.0.0](https://bitbucket.org/KingsleyChimezie/astra-theme-animated-sticky-navbar/get/v1.0.0.zip) 	|  |              |
 
 ### Supporter Pack Version 🙏 ###
 I've decided to limit some features to a premium version - don't worry, you still get all the main features in the standard version.
@@ -77,10 +79,7 @@ Make it worth while by donating 😉.
 [Click here to visit the discussion blog for this project.](https://kingsleychimezie.weebly.com/blog/astra-theme-animated-sticky-nav-bar)
 
 ### Acknowledgments 👏 ###
-* SilkyPress.com - Simple Custom CSS and JS plugin
-
-
-
+* SilkyPress.com - Simple Custom CSS and JS plugin0
 
 ### Project People 👥 ###
 | Name                	|  Title              	|  Authority Level      | Website                  	|
